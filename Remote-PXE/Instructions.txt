@@ -1,0 +1,11 @@
+Instructions
+
+1.	Copy the “Remote PXE” folder to a location on your local machine, it doesn’t matter where.
+2.	Open a command prompt in this folder by Shift + Right-Clicking and selecting “Open Command Prompt Here” or navigate to this folder’s location on your local machine using either a Command Prompt or PowerShell terminal.
+a.	If using Command Prompt terminal, type “powershell” and enter to turn it into a PowerShell terminal
+3.	Execute the script using the simple command “.\remotePXEProgram.ps1”
+a.	Using tab-completion you can just type “.\r <TAB>”
+4.	When you execute the script for the first 1 or even 2 times, the ConfigurationManager PowerShell module will check for updates and install them if needed.  This will show up as a green rectangle at the top of the window.  If the green box disappears and the script is hanging you can simply <Ctrl-C> to terminate and execute the script again.
+5.	The script checks for 2 things upon startup, PowerShell version and if the Configuration Manager Admin Console is installed (or rather if the ConfigurationManager.psm1 PowerShell module exists)
+a.	If something is wrong at this point you will get errors accordingly.
+6.	The script will guide you through basically the rest of the process of the deployment.
