@@ -18,7 +18,7 @@ $fileName = Get-FileName -initialDirectory "%HOME%"
 Write-Host $fileName
 
 
-cd $fileName
+#cd $fileName #Just for Testing
 
 #$location = Read-Host "Where is your script that you would like signed located? Ex) C:\Users\<Username>\Desktop\MyScript.ps1"
 
